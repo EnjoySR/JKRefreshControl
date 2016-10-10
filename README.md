@@ -35,6 +35,9 @@ refresh.endRefreshing()
 refresh.beginRefreshing()
 ```
 
+## 其他
+在控件进入到刷新状态，回到顶部的时候，刷新控件可能会有抖动，原因以及解决方法：[你的下拉刷新是否“抖”了一下](http://www.cnblogs.com/max5945/p/4283225.html)(在 iPhone 7 模拟器上有时候不好使，但是在真机上没有问题)
+
 ## License
 MIT
 
