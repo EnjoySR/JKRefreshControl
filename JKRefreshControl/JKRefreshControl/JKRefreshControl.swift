@@ -372,7 +372,7 @@ extension JKRefreshControl {
             topLayer.path = nil
             return
         }
-        contentOffsetScale = 1
+
         /// 提供内部方法，专门用于获取绘制底部的圆的 path
         func pathForBottomCircle(contentOffsetScale: CGFloat) -> UIBezierPath {
             // 记录传入的比例
