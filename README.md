@@ -17,6 +17,11 @@
 let refresh = JKRefreshControl()
 tableView.addSubview(refresh)
 ```
+- 添加刷新事件监听
+
+```swift
+refresh.addTarget(self, action: #selector(loadData), for: .valueChanged)
+```
 
 - 结束刷新
 
